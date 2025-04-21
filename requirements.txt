@@ -1,0 +1,11 @@
+# requirements.txt
+streamlit
+transformers
+torch   # Or tensorflow
+transformers-interpret
+emoji==0.6.0 # Or newer compatible version
+plotly
+sentencepiece
+wordcloud      
+matplotlib     
+# pandas      

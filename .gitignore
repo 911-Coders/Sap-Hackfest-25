@@ -1,0 +1,113 @@
+# --- Python Virtual Environments ---
+# Standard names for virtual environments. Recreate using requirements.txt.
+/venv/
+/.venv/
+/env/
+/virtualenv/
+/pyenv/
+*.pyenv
+
+# --- Python Cache & Compiled Files ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Python Distribution / Build Artifacts ---
+# Distribution / packaging
+/dist/
+/build/
+/*.egg-info/
+/wheels/
+/*.egg
+MANIFEST
+
+# --- IDE / Editor Specific Files ---
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Other common editor/IDE files
+.project
+.pydevproject
+.settings/
+
+# --- Operating System Files ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# --- ML / Data Science Specific ---
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large data files (uncomment and modify specific patterns if needed)
+# *.csv
+# *.json
+# *.jsonl
+# *.parquet
+# *.hdf5
+# *.feather
+# /data/ # Example data directory
+
+# Locally saved model checkpoints/files (usually large, download/train separately)
+# *.pt
+# *.pth
+# *.bin
+# *.safetensors
+# /models/ # Example models directory
+
+# --- Streamlit Specific ---
+# Streamlit secrets file (NEVER commit this!)
+.streamlit/secrets.toml
+
+# Other potential streamlit cache/config (usually not needed unless problematic)
+# .streamlit/
+
+# --- Testing Specific ---
+# pytest cache
+.pytest_cache/
+
+# Coverage reports
+.coverage
+.coverage.*
+/htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# --- Logs ---
+# Log files
+*.log
+logs/
+
+# --- Temporary Files ---
+*.swp
+*.swo
+
+# --- Sensitive Information ---
+# Add any files containing API keys, passwords, tokens, etc.
+# Example:
+# config.env
+# credentials.json
+# *.pem
+
+# --- Specific to this project (if any) ---
+# Add any other generated files specific to your workflow here
