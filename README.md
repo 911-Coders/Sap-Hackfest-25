@@ -81,7 +81,7 @@ Explainify is an interactive web application built for the SAP Hackfest '25. It 
 ---
 
 ## 📁 Project Structure
-Sap-Hackfest-25/
+```Sap-Hackfest-25/
 │
 ├── app.py # Main Streamlit application script
 ├── ml_logic.py # Core ML/backend functions
@@ -90,6 +90,7 @@ Sap-Hackfest-25/
 ├── logo.png 
 ├── .gitignore
 └── README.md # This file
+```
 ---
 
 ## 🧑‍💻 Team: 911 Coders
