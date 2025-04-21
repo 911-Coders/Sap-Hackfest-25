@@ -1,11 +1,10 @@
-# requirements.txt
 streamlit
 transformers
-torch   # Or tensorflow
+torch
 transformers-interpret
-emoji==0.6.0 # Or newer compatible version
 plotly
 sentencepiece
-wordcloud      
-matplotlib     
-# pandas      
+matplotlib
+wordcloud
+emoji==0.6.0
+google-generativeai

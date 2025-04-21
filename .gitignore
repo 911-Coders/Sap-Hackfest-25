@@ -6,7 +6,8 @@
 /virtualenv/
 /pyenv/
 *.pyenv
-
+# Streamlit Specific
+.streamlit/secrets.toml
 # --- Python Cache & Compiled Files ---
 # Byte-compiled / optimized / DLL files
 __pycache__/
